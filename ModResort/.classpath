@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20240317_2139/libraries/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20240317_2139/libraries/httpcore-4.4.13.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20240317_2139/libraries/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20240317_2139/libraries/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20240317_2139/libraries/httpmime-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/IBMIMShared/plugins/com.ibm.rational.test.lt.codegen.core_7.3.1310.v20240317_2139/libraries/slf4j-simple-1.7.30.jar"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/RPTKHelpers.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/mac_msedgedriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/linux_msedgedriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/msedgedriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/operadriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/linux_operadriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/mac_operadriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/chromedriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/geckodriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/linux_geckodriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/linux_x64_chromedriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/linux_x64_geckodriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/mac_chromedriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/mac_arm64_chromedriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/mac_geckodriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/webuiplaybackextension-linux-jpm.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/webuiplaybackextension-windows-jpm.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/x64_geckodriver.zip"/>
+	<classpathentry kind="lib" path="D:/DATA/TECH/Testing/RTW/workspace/TestUI/zippedExtLibs/x64_IEDriverServer.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,65 @@
+name: ModResort
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /ModResort/src
+        type: javaClasspath
+  - name: TestUI-simple.recdata
+  - name: TestUI-simple.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /ModResort/TestUI-simple.recdata
+        type: recsessionRecdata
+  - name: TestUI-simple.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.1.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEF0CF5CC190F0E6A8E33036616636
+    dependencies: 
+      - path: /ModResort/TestUI-simple.recsession
+        type: testRecsession
+      - path: /ModResort/eb_52_116_6_138.ma
+        type: test#moeb.applicationPackage
+  - name: TestUI-simple_1712048438944.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1712048438944
+      tags: 
+      testId: A1EEF0CF5CC190F0E6A8E33036616636
+      testName: TestUI-simple
+    dependencies: 
+      - path: /ModResort/TestUI-simple.testsuite
+        type: statsSessionTest
+      - path: /ModResort/TestUI-simple_1712048438944.xmoebreport
+        type: statsSessionAsset
+      - path: /ModResort/TestUI-simple_1712048438944_orch!system.mstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1712048438944_orch!system.rstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1712048438944_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1712048438944_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1712048440887.executiondlr
+        type: statsSessionAsset
+  - name: TestUI-simple_1712048438944.xmoebreport
+  - name: TestUI-simple_1712048438944_orch!system.mstats
+  - name: TestUI-simple_1712048438944_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TestUI-simple_1712048438944_perf!localhost.mstats
+  - name: TestUI-simple_1712048438944_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TestUI-simple_1712048440887.executiondlr
+  - name: eb_52_116_6_138.ma
+    type: moeb.applicationPackage
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: TestUI_simple_Test_A1EEF0CF5CC190F0E6A8E33036616636.java
+            type: com.ibm.rational.test.lt.generatedCode
