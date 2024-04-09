@@ -7,6 +7,10 @@ resources:
     dependencies: 
       - path: /ModResort/src
         type: javaClasspath
+  - name: DataSet2.csv
+    type: com.ibm.rational.test.lt.datapool
+  - name: DataSet2.csv.metadata
+    missing: true
   - name: TestUI-simple.recdata
   - name: TestUI-simple.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -21,12 +25,12 @@ resources:
       type: com.ibm.rational.test.lt.lttest
       uid: A1EEF0CF5CC190F0E6A8E33036616636
     dependencies: 
+      - path: /ModResort/DataSet2.csv
+        type: testDatapool
       - path: /ModResort/TestUI-simple.recsession
         type: testRecsession
       - path: /ModResort/eb_52_116_6_138.ma
         type: test#moeb.applicationPackage
-      - path: /ModResort/myDataset.csv
-        type: testDatapool
   - name: TestUI-simple_1712229325493.stats
     type: com.ibm.rational.test.lt.stats.session
     properties: 
@@ -61,12 +65,6 @@ resources:
     type: moeb.applicationPackage
   - name: eb_52_116_6_138.ma
     type: moeb.applicationPackage
-  - name: myDataset.csv
-    type: com.ibm.rational.test.lt.datapool
-    dependencies: 
-      - path: /ModResort/myDataset.csv.metadata
-        type: datasetMetadata
-  - name: myDataset.csv.metadata
   - name: src
     resources: 
       - name: test
