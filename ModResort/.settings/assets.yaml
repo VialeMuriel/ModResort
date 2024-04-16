@@ -7,6 +7,12 @@ resources:
     dependencies: 
       - path: /ModResort/src
         type: javaClasspath
+  - name: Dataset1.csv
+    type: com.ibm.rational.test.lt.datapool
+    dependencies: 
+      - path: /ModResort/Dataset1.csv.metadata
+        type: datasetMetadata
+  - name: Dataset1.csv.metadata
   - name: TestUI-simple.recdata
   - name: TestUI-simple.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -205,6 +211,36 @@ resources:
   - name: TestUI-simple_1713286506531_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: TestUI-simple_1713286508335.executiondlr
+  - name: TestUI-simple_1713293533996.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1713293533996
+      tags: 
+      testId: A1EEF0CF5CC190F0E6A8E33036616636
+      testName: TestUI-simple
+    dependencies: 
+      - path: /ModResort/TestUI-simple.testsuite
+        type: statsSessionTest
+      - path: /ModResort/TestUI-simple_1713293533996.xmoebreport
+        type: statsSessionAsset
+      - path: /ModResort/TestUI-simple_1713293533996_orch!system.mstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713293533996_orch!system.rstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713293533996_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713293533996_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713293535661.executiondlr
+        type: statsSessionAsset
+  - name: TestUI-simple_1713293533996.xmoebreport
+  - name: TestUI-simple_1713293533996_orch!system.mstats
+  - name: TestUI-simple_1713293533996_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TestUI-simple_1713293533996_perf!localhost.mstats
+  - name: TestUI-simple_1713293533996_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TestUI-simple_1713293535661.executiondlr
   - name: b_ModResort_4df.ma
     type: moeb.applicationPackage
   - name: eb_52_116_6_138.ma
