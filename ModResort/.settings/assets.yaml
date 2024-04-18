@@ -505,6 +505,36 @@ resources:
   - name: TestUI-simple_1713364980064_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: TestUI-simple_1713364981988.executiondlr
+  - name: TestUI-simple_1713433418549.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1713433418549
+      tags: 
+      testId: A1EEF0CF5CC190F0E6A8E33036616636
+      testName: TestUI-simple
+    dependencies: 
+      - path: /ModResort/TestUI-simple.testsuite
+        type: statsSessionTest
+      - path: /ModResort/TestUI-simple_1713433418549.xmoebreport
+        type: statsSessionAsset
+      - path: /ModResort/TestUI-simple_1713433418549_orch!system.mstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713433418549_orch!system.rstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713433418549_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713433418549_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /ModResort/TestUI-simple_1713433424701.executiondlr
+        type: statsSessionAsset
+  - name: TestUI-simple_1713433418549.xmoebreport
+  - name: TestUI-simple_1713433418549_orch!system.mstats
+  - name: TestUI-simple_1713433418549_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TestUI-simple_1713433418549_perf!localhost.mstats
+  - name: TestUI-simple_1713433418549_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TestUI-simple_1713433424701.executiondlr
   - name: b_ModResort_4df.ma
     type: moeb.applicationPackage
   - name: eb_52_116_6_138.ma
